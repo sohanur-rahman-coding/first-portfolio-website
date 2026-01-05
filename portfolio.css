@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.font-open-snas {
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+nav{
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+
+}
+.logo-r{
+    color: #FD6E0A;
+
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+}
+nav .menu a{
+    text-decoration: none;
+    font: 20px;
+    color: #474747;
+}
+.btn{
+    background-color:#FD6E0A ;
+    border:none;
+    padding: 18px 36px;
+    border-radius: 5px;
+    font: 20px;
+    font-weight: bold;
+}

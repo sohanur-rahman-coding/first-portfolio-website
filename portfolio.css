@@ -9,14 +9,18 @@
 .font-open-snas {
     font-family: "Baloo Bhai 2", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+
 }
-header{
+
+header {
     background-color: #FFF8F3;
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
-nav{
+
+nav {
     width: 74%;
     max-width: 1140px;
     margin: 0 auto;
@@ -24,31 +28,134 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.logo h2{
+
+.logo h2 {
     font-size: 45px;
     font-weight: 900;
 
 }
-.logo-r{
+
+.logo-r {
     color: #FD6E0A;
 
 }
-nav .menu{
+
+nav .menu {
     display: flex;
     list-style: none;
     gap: 50px;
     align-items: center;
 }
-nav .menu a{
+
+nav .menu a {
     text-decoration: none;
     font: 20px;
     color: #474747;
 }
-.btn{
-    background-color:#FD6E0A ;
-    border:none;
+
+.btn {
+    background-color: #FD6E0A;
+    border: none;
     padding: 18px 36px;
     border-radius: 5px;
     font: 20px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+#banner {
+    margin: 47px 38px 0px 230px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+#banner .banner-content {
+    max-width: 585px;
+}
+
+#banner .banner-content h2 {
+    font-size: 45;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+#banner .banner-content h1 {
+    font-size: 85;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+#banner .banner-content p {
+    font-size: 18;
+    /* font-weight: 900; */
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+}
+
+#banner .banner-image img {
+    max-width: 584px;
+    vertical-align: middle;
+}
+
+/* aaaabout section  */
+#about {
+    padding-top: 130px;
+}
+
+#about .about-content {
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+
+.about-content {
+    max-width: 827px;
+    text-align: center;
+
+}
+
+.about-content h2 {
+    font: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+
+
+}
+
+.about-content .about-heading p {
+    font: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#about .about-content .about-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-content .about-info p {
+    color: #757575;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about-content .about-info h4 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 30px;
+
 }
